@@ -243,6 +243,7 @@ debug.hwui.target_cpu_time_percent=30
 ro.incremental.enable=true
 
 # Media
+debug.stagefright.c2inputsurface=-1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Perf
