@@ -245,19 +245,5 @@
             <Feature name="bitrate-modes" value="CQ" />
             <Limit name="performance-point-512x512" value="3825" />
         </MediaCodec>
-        <MediaCodec name="c2.qti.heic.encoder" type="image/vnd.android.heic">
-            <Alias name="OMX.qcom.video.encoder.heic"/>
-            <Limit name="size" min="512x512" max="8192x8192" />
-            <Limit name="alignment" value="2x2" />
-            <Limit name="block-size" value="16x16" />
-            <Limit name="blocks-per-second" min="64" max="786432" />
-            <Limit name="bitrate" range="1-60000000" />
-            <Limit name="frame-rate" range="1-20" />
-            <Limit name="concurrent-instances" max="16" />
-            <Limit name="quality" range="0-100" default="80" />
-            <Feature name="bitrate-modes" value="CQ" />
-            <Limit name="performance-point-8192x4320" value="3" />
-            <Limit name="performance-point-1920x1080" value="6" />
-        </MediaCodec>
     </Encoders>
 </MediaCodecs>
