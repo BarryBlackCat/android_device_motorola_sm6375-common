@@ -73,9 +73,6 @@ function blob_fixup() {
         vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml)
             sed -ni '/default9/!p' "${2}"
             ;;
-        system_ext/priv-app/ims/ims.apk)
-            apktool_patch "${2}" "$MY_DIR/ims-patches"
-            ;;
     esac
 }
 
